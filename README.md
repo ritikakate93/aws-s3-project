@@ -59,26 +59,28 @@ Go to **Permissions** → **Bucket Policy**, add this:
   ]
 }
 
-
+```
 ✅ Access the Website
 Use the S3 endpoint provided in the Static Website Hosting section:
 
 http://demo-pet-shop-website.s3-website.ap-south-1.amazonaws.com/
 
 🔐 Optional Enhancements
-HTTPS: Use AWS CloudFront with S3 to enable HTTPS
-Domain Name: Map a custom domain using AWS Route 53
-SSL: Use ACM for free SSL certificate
-Logging: Enable access logs to track visits
+- HTTPS: Use AWS CloudFront with S3 to enable HTTPS
+* Domain Name: Map a custom domain using AWS Route 53
++ SSL: Use ACM for free SSL certificate
+- Logging: Enable access logs to track visits
 
 📈 Learning Outcomes
-Set up a static website on AWS S3
-Configure S3 permissions and policies
-Understand hosting architecture without servers
-Learn optional CDN and domain mapping techniques
+- Set up a static website on AWS S3
+* Configure S3 permissions and policies
++ Understand hosting architecture without servers
+- Learn optional CDN and domain mapping techniques
 
-🤝 Contributing
+🤝 Contributing 
 Pull requests and suggestions are welcome. Please fork the repo and submit a PR.
 
 📄 License
 This project is open-source and free to use for educational purposes.
+
+```
